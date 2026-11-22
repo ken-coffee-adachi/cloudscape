@@ -85,3 +85,11 @@ represented in the source and tests.
 is a design reference for separating large shapes from erosion.
 [Maxime Heckel](https://blog.maximeheckel.com/posts/real-time-cloudscapes-with-volumetric-raymarching/#sampling-light)
 is a reference for sun-direction sampling. Neither implementation nor their textures are bundled here.
+
+## License
+
+Cloudscape's original code is licensed under the [MIT License](LICENSE).
+Third-party code retains its own licenses; see the
+[third-party notices](public/THIRD_PARTY_NOTICES.txt).
+When distributing the demo, keep both `LICENSE` and `THIRD_PARTY_NOTICES.txt`
+with the built files. `npm run build` puts both in `dist/`.
