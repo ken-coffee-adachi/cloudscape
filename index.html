@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Cloudscape</title>
+  </head>
+  <body>
+    <main>
+      <canvas aria-label="Volumetric clouds over the ocean"></canvas>
+      <div class="overlay">
+        <h1>Cloudscape</h1>
+        <div class="playback">
+          <button id="play" type="button" aria-label="Play flight" title="Play flight">
+            <span aria-hidden="true">&#9654;&#65038;</span>
+          </button>
+          <span class="meter"><span id="fps">--</span> FPS</span>
+        </div>
+      </div>
+      <p id="error" role="alert" hidden></p>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
