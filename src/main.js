@@ -163,15 +163,18 @@ function start() {
     fps.textContent = '--';
     setPlayButton(false);
   }
+  function resumeFlight() {
+    if (frame) return;
+    setPlayButton(true);
+    lastFrame = null;
+    fpsFrames = 0;
+    frame = requestAnimationFrame(tick);
+  }
   play.addEventListener('click', () => {
     if (frame) pauseFlight();
-    else {
-      setPlayButton(true);
-      lastFrame = null;
-      fpsFrames = 0;
-      frame = requestAnimationFrame(tick);
-    }
+    else resumeFlight();
   });
+  resumeFlight();
   resize();
   new ResizeObserver(resize).observe(canvas);
 }

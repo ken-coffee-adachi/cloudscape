@@ -2,7 +2,7 @@
 
 A Three.js flight above and below broken cloud banks over the ocean.
 
-**[Fly through Cloudscape](https://ken-coffee-adachi.github.io/cloudscape/)**. Press play to start the flight.
+**[Fly through Cloudscape](https://ken-coffee-adachi.github.io/cloudscape/)**. The flight starts automatically.
 
 [![Sunlit cloud banks above the ocean](media/cloudscape-readme.png)](https://ken-coffee-adachi.github.io/cloudscape/)
 
