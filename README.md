@@ -1,6 +1,11 @@
 # Cloudscape
 
 A Three.js flight above and below broken cloud banks over the ocean.
+
+**[Fly through Cloudscape](https://ken-coffee-adachi.github.io/cloudscape/)**. Press play to start the flight.
+
+[![Sunlit cloud banks above the ocean](media/cloudscape-readme.png)](https://ken-coffee-adachi.github.io/cloudscape/)
+
 Run `npm ci` and `npm run dev`; use `npm test` for the scene tests.
 
 Play or pause the 36-second flight using the button in the lower right.
